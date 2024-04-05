@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        var stu1=new Object();
+        stu1.id=23;
+        stu1.name="anitha";
+        stu1.course="fsd";
+        document.write("id="+stu1.id+"<br>"+"name="+stu1.name+"<br>"+"course="+stu1.course)
+    </script> -->
+    <h3>object construction</h3>
+    <script>
+        function stu1(id,name,course){
+            this.id=id;
+            this.name=name;
+            this.course=course;
+
+
+        }
+        var a=new stu1(24,"anitha","python")
+        document.write("id="+a.id+"<br>"+"name="+a.name+"<br>"+"course="+a.course)
+    </script>
+</body>
+</html>

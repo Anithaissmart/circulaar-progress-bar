@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ganesha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+ 
+    <h1>types of js linkings</h1>
+
+    <li>1.internal</li>
+    <li>2.external</li>
+
+    <script>
+      bottlebox = 10;
+      bottlebox1 = 20;
+
+
+    //   document.write(bottlebox+"<br>");
+    //   document.write(bottlebox1);
+
+    //    scopes
+
+
+ let x=10;
+
+document.write(x+"first x value on 28 line"+"<br>");
+{
+ let x=20
+  document.write(x+"first x value blockkk"+"<br>");
+}
+
+document.write(x+"second x value"+"<br>");
+
+
+let y=30;
+
+document.write(x+"first x value on 28 line"+"<br>");
+
+{
+
+
+    let y=20
+    document.write(y+"second value on 28 line"+"<br>");
+
+}
+document.write(y+"second x value"+"<br>");
+
+{
+    var z=110
+    document.write(z+"<br>");
+}
+var z=10
+document.write(z+"<br>");
+
+//   ani=30,40;
+// document.write(ani+"<br>");
+// document.write(ani+"<br>")
+document.write(z);
+
+
+
+
+
+
+// hoisting
+
+hoisting=300;
+
+document.write(hoisting+"<br>");
+document.write(hoisting+"<br>");
+document.write(hoisting+"<br>");
+document.write(hoisting+"<br>");
+
+
+
+
+
+document.write(hoisting);
+hoisting="x";
+// primitive data type
+
+// h=
+// document.write(h+"<br>");
+
+x=444444444;
+document.write(x+"<br>");
+document.write(typeof(x)+"<br>");
+
+
+q=true;
+document.write(typeof(q)+"<br>");
+
+
+w=null;
+document.write(typeof(w)+"<br>");
+
+
+e=undefined;
+document.write(typeof(x)+"<br>");
+
+// non premitive data type
+
+ar=["a","b","c","d",1,2];
+document.write(typeof(ar)+"<br>");
+
+
+obj={
+    name:"anitha",
+    course:"pfsd",
+    place:"vskp"
+}
+document.write(typeof(obj)+"<br>");
+
+y="this is string";
+document.write(typeof(y)+"<br>");
+
+
+
+// update
+ar[5]=7
+// delete
+// delete ar[4];
+document.write(ar+"<br>");
+document.write(ar[5]+"<br>");
+// creat
+ar=[3,5,7];
+delete ar[2];
+// read
+document.write(ar+"<br>")
+
+
+// creat
+
+obj={
+    name:"anitha",
+    course:"pfsd",
+    place:"vskp"
+}
+// document.write(obj+"<br>")
+// update
+obj.name="laxman"
+delete obj.name
+document.write(obj.name+"<br>")
+
+
+// Arithmatic operations
+
+x=4;
+y=6;
+document.write(x+y+"<br>");
+document.write(x-y+"<br>");
+document.write(x*y+"<br>");
+document.write(x/y+"<br>");
+// document.write(x%y+"<br>");       4%5=6)4(0
+
+
+
+
+document.write(x**y+"<br>"); 
+// comparitive operations           
+                                        
+
+x=4
+// z="7"
+z="77"
+document.write(x==4);
+document.write("<br>")
+document.write(z==7);
+document.write("<br>")
+// document.write(z==7);
+// &-and means-two soluntions is write out put also true
+r=5
+t=5
+document.write(r==5 && t==5)
+document.write("<br>")
+document.write(r==4||t==5)
+document.write("<br>")
+// left shift and right shift
+y=2;
+u=5;
+document.write(y<<u)
+document.write("<br>")
+// right shift
+
+document.write(y>>u);
+
+document.write("<br>")
+i=0
+o=5
+document.write(i>o)
+
+document.write(i<o);
+document.write("<br>")
+x="4"
+y=true
+document.write(x==y)
+document.write("<br>")
+x=false
+y=true
+document.write(x>y)
+document.write("<br>")
+x="7"
+y="5"
+document.write(x<=y)
+document.write("<br>")
+// equal to operatior
+// less than and greater than
+i=4
+o=5
+document.write(i>=o);
+document.write("<br>")
+document.write(i<=o)
+document.write("<br>")
+document.write(i=o)
+
+// conditions
+
+
+x=5
+if(x>=6)
+{
+    document.write(x+"<br>");
+}
+else{
+    document.write(6)
+}
+document.write("<br>");
+
+ marks=35;
+if(marks>95){
+    document.write("a grade");
+}
+else if(marks>45);
+{
+    document.write("C GRADE"+"<br>");
+}
+// else
+// {
+// document.write("pass");
+// }
+x="q"
+if(x=="a"||x=="e"||x=="i"||x=="o"||x=="u")
+{
+    document.write("vowels")
+}
+else{
+    document.write("consonents"+"<br>")
+}
+// document.write(+"<br>");
+
+// ternary conditions
+// x="4"
+// y=(x===4)?"true":"false":
+// Document.write(y);
+
+
+p=new Date(); 
+//   d must in capital
+document.write(p+"<br>");
+// document.write(p.get()+1+"<br>")
+// m must be in capital
+// document.write(p.getFullYear()+"<br>");
+// document.write(p.getDay()+"<br>");
+// document.write(p.getseconds()+"<br>");
+// document.write(p.getWeek()+"<br>");
+
+// for loops
+
+for(i=1;i<=10;i++)
+{
+    Document.write(i+"<br>");
+}
+
+
+
+ </script>
+ <script>
+    // even numbers print
+    // var i=0;
+    // while(i<=10){
+    //     document.write(i+"<br>")
+    //     i=i+2;
+    // }
+    
+
+ </script>
+ <!-- arrays -->
+ <script>
+    // var a=["anitha","pandu","laxman"];
+    // for(i=0;i<a.length;i++){
+    //     document.write(a[i]+"<br>")
+    // }
+    // array directly
+    // var a=new Array();
+    // a[0]="anitha"
+    // a[1]="laxman"
+    // a[2]="teja"
+    // i=0;
+    // while(i<a.length){
+    //     document.write(a[i]+"<br>");
+    //     i++;
+    // }
+
+
+
+
+//     let arr1=[1,2,3,4,5];
+// let arr2=[6,7,8,9,10];
+// let arr3=[...arr1,...arr2]
+// document.write(arr3)
+
+// rest operator
+function user(name,...remaining){
+    document.write(name+"<br>"+remaining)
+}
+user("john",25,"<br>","anithabera95@gmail.com","<br>",12344,"<br>")
+
+
+
+// default parameter
+
+function user(name,age=25){
+    document.write(name+" "+age)
+
+}
+user("anitha",)
+ </script>
+
+ 
+    
+</body>
+</html>

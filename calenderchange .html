@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <form action="my.html" method="post" name="form" onsubmit="return valid()">
+        <input type="date"name="udate">
+        <br>
+    
+        <br>
+        <input type="submit"value="click">
+    </form>
+    <script>
+        function valid() {
+            var curdate=new Date();
+            var date=new Date(document.form.udate.value);
+            if (date>curdate) {
+                alert("please enter valid date");
+                return false;
+            }
+        }
+    </script>
+      -->
+
+     <!-- number -->
+      <!-- <form action="my.html" method="post" name="form" onsubmit="return valid()">
+        <input type="number"name="unum">
+        <input type="submit">
+        <br>
+    </form>
+    <script>
+        function valid(){
+            var number=document.form.unum.value;
+            if(number.length==6)
+            return true;
+        else{
+            alert("enter 10 digit numbers")
+            return false;
+        }
+        }
+        valid()
+    </script>  -->
+
+
+
+
+
+
+
+
+
+    <!-- two digits -->
+
+    <form action="my.html" method="post" name="form" onsubmit="return valid()">
+        <input type="number"name="num">
+        <input type="submit">
+    </form>
+    <script>
+        function valid(){
+            var number=document.form.num.value;
+            if(number<7 || number>100){
+                alert("enter two digits");
+                return false;
+            }
+            
+        
+    
+        }
+        valid()
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

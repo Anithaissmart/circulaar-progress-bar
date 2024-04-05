@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <script>
+        //  arthematic operators(+,-,*,/,%)
+
+//  var a=14;
+//  var b=24;
+//  var c=a+b
+//  document.write(c)
+
+// var a=5;
+// var b=3;
+// var c=a-b
+// confirm(c)
+
+// var a=24;
+// var b=24;
+// var c=a*b
+// alert(c)
+
+// var a=2;
+// var b=2;
+// var c=a/b
+// alert(c)
+
+// var a=2;
+// var b=2;
+// var c=a%b
+// alert(c)
+
+// assignment operators(=,+=,-+,*=,/=,%=)
+
+// var a=2;
+// var b=2;
+// a+=b 
+// alert(a)
+
+
+// var a=2;
+// var b=2;
+// a-=b
+// alert(a)
+
+// var a=2;
+// var b=true;
+// a-=b
+// alert(a)
+
+// var a=3;
+// var b=3;
+// a*=b
+// alert(a)
+
+// var a=2;
+// var b=2;
+// a/=b
+// alert(a)
+
+// var a=2;
+// var b=2;
+// a%=b
+// alert(a)
+
+// inc and dec )(++,--)
+
+
+// var a=2;
+// var b=2;
+// document.write(++a+"<br>")
+// document.write(++a+"<br>")
+// document.write(++a+"<br>")
+// document.write(++a+"<br>")
+
+
+// var a=2;
+// var b=2;
+// document.write(a++)
+// document.write(a++)
+// document.write(a++)
+
+
+// var a=23;
+// document.write(--a)
+
+// comp operators(==,!=,<,>,<=,>=)
+
+// var a=3;
+// var b=4;
+// if(a==b){
+//     alert("this is true")
+// }
+// else{
+//     alert("this is false")
+// }
+
+
+// var a=3;
+// var b=4;
+// if(a!=b){
+//     alert("this is true")
+// }
+// else{
+//     alert("this is false")
+// }
+
+// var a=3;
+// var b=true;
+// if(a<b){
+//     alert("this is true")
+// }
+// else{
+//     alert("this is false")
+// }
+
+
+// var a=3;
+// var b=true;
+// if(a>b){
+//     alert("this is true")
+// }
+// else{
+//     alert("this is false")
+// }
+
+
+// var a=3;
+// var b=3;
+// if(a<=b){
+//     alert("this is true")
+// }
+// else{
+//     alert("this is false")
+// }
+
+
+// var a=3;
+// var b=true;
+// if(a>=b){
+//     alert("this is true")
+// }
+// else{
+//     alert("this is false")
+// }
+
+
+// bitwise operators(&,|,^)
+// var a=3;
+// var b=4;
+// var c=5;
+// if(a<b & b>c){
+//     alert("this is true")
+// }
+// else{
+//     alert("this is false")
+// }
+
+// var a=3;
+// var b=4;
+// var c=5;
+// if(a<b | a>c){
+//     alert("this is true")
+// }
+// else{
+//     alert("this is false")
+// }
+
+// var a=3;
+// var b=4;
+// var c=5;
+// if(a>b ^ a>b){
+//     alert("this is true")
+// }
+// else{
+//     alert("this is false")
+// }
+
+
+// logical operators(&&,||)
+
+// var a=3;
+// var b=4;
+// var c=5;
+// if(a<b && a>b){
+//     alert("this is true")
+// }
+// else{
+//     alert("this is false")
+// }
+
+// var a=3;
+// var b=4;
+// var c=5;
+// if(a<b || a>b){
+//     alert("this is true")
+// }
+// else{
+//     alert("this is false")
+// }
+    // </script>
+    <!-- set time out -->
+    <!-- <script>
+        function fun(){
+            alert("hello")
+        }
+        setTimeout(fun(),2000)
+    </script> -->
+    <!-- vamsi@gmail.com -->
+    <script>
+        function validation(){
+            var mail=document.form.umail.value;
+            var atposition=mail.index0f("@");
+            var dotposition=mail.lastIndex0f(".");
+            if(atposition<2||dotposition<atposition+2||dotposition+2>=mail.length);
+            {
+                alert("pleas enter valid mail");
+                return false;
+            }
+        } 
+    </script>
+    <form action="my.html"method="post" name="form"onsubmit="return validation()">
+        <input type="name"placeholder="entermail" name="umail">
+        <br><br>
+        <input type="submit"value="check">
+    
+    </form>
+</body>
+</html>
